@@ -38,7 +38,8 @@ if data.status_code == 200:#Valida que la respuesta HTTP sea exitosa
         print ("Codigo ZIP: ", e['codigo_zip'])
         #print ("Numero tarjeta de credito: ", e['credit_card_num'])
         print ("Numero tarjeta de credito: ****-****-****-", e['credit_card_num'] [-5:])#La TC la imprimo enmascarada
-        print ("Numero de CCV: ", e['credit_card_ccv'])
+        #print ("Numero de CCV: ", e['credit_card_ccv'])
+        print ("Numero de CCV: ***")
         #print ("Numero de cuenta: ", e['cuenta_numero'])
         print ("Numero de cuenta: ****-", e['cuenta_numero'] [-4:])#La cuenta también la imprimo enmascarada
         print ("Direccion: ", e['direccion'])
@@ -56,3 +57,4 @@ if data.status_code == 200:#Valida que la respuesta HTTP sea exitosa
         print ("Fecha de cumpleanos: ", e['fec_birthday'])
         print ("Id:: ", e['id'])
         print ("")
+        #cd
